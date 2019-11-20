@@ -23,6 +23,7 @@
 
     async function go() {
         val = await showModal({page: Other, stretched: false });
+        //navigate({page: Other})
     }
 
     onMount(async () => {
